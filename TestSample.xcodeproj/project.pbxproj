@@ -14,6 +14,8 @@
 		9A9D7684201385F300FD786E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9D7682201385F300FD786E /* LaunchScreen.storyboard */; };
 		9A9D768F201385F300FD786E /* TestSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D768E201385F300FD786E /* TestSampleTests.swift */; };
 		9A9D769A201385F300FD786E /* TestSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D7699201385F300FD786E /* TestSampleUITests.swift */; };
+		9A9D76A820140E4700FD786E /* MathFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D76A720140E4700FD786E /* MathFunction.swift */; };
+		9A9D76A920140F5400FD786E /* MathFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9D76A720140E4700FD786E /* MathFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		9A9D7695201385F300FD786E /* TestSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9D7699201385F300FD786E /* TestSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSampleUITests.swift; sourceTree = "<group>"; };
 		9A9D769B201385F300FD786E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9D76A720140E4700FD786E /* MathFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 				9A9D7680201385F300FD786E /* Assets.xcassets */,
 				9A9D7682201385F300FD786E /* LaunchScreen.storyboard */,
 				9A9D7685201385F300FD786E /* Info.plist */,
+				9A9D76A720140E4700FD786E /* MathFunction.swift */,
 			);
 			path = TestSample;
 			sourceTree = "<group>";
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9D767C201385F300FD786E /* ViewController.swift in Sources */,
+				9A9D76A820140E4700FD786E /* MathFunction.swift in Sources */,
 				9A9D767A201385F300FD786E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9D768F201385F300FD786E /* TestSampleTests.swift in Sources */,
+				9A9D76A920140F5400FD786E /* MathFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
